@@ -13,6 +13,6 @@ eureka:
     fetch-registry: false
     #默认为true，是否注册自己到eureka
     register-with-eureka: false
-    #注册地址，不指定也是这个地址
+    #注册地址，不写也是这个地址
     service-url:
-      defalutZone: http://${eureka.instance.hostname}:${server.port}/eureka/
+      defalutZone: http://${eureka.instance.hostname}:${server.port}
